@@ -1120,5 +1120,8 @@ count3(result2)
 
 print("\nSolution:")
 print(counter2)
+print("Correct Answer!")
+
+print("\nDay Finished!!!")
 
 input()
