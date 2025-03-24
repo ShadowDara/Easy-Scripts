@@ -13,11 +13,8 @@ def path():
     print("Folder path:", skript_dir)
 
 def start():
-    while True:
-        path()
-        choice = input()
-        if choice == "0":
-            break
+    pass
 
 if __name__ == '__main__':
+    path()
     start()
