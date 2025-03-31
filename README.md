@@ -1,3 +1,33 @@
+# Scipt Tools
+
+This is a collection Repository for (little) useful coding scripts:
+
+---
+
+- [Content]()
+  - [Python]()
+    - [3ma to obj converter]()
+- [Infos]()
+  - [LICENSE]()
+  - [Contribute]()
+  - [About]()
+
+---
+
+## Content
+
+### 3ma to obj converter
+
+---
+
+---
+
+---
+
+---
+
+# old
+
 # Coding Challenges
 
 - Repository for submits to coding challenges and my Ideas sometimes and other random stuff!
