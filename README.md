@@ -11,6 +11,7 @@ This is a collection Repository for (little) useful coding scripts:
   - [LICENSE]()
   - [Contribute]()
   - [About]()
+    - [Contributers]()
 
 ---
 
@@ -18,28 +19,27 @@ This is a collection Repository for (little) useful coding scripts:
 
 ### 3ma to obj converter
 
----
+a python script which converts all 3ma files to obj
+- [Link to Repository](https://github.com/ShadowDara/3ma-to-obj-converter-python)
+- *LICENSE*: Appache 2.0
 
----
+## Infos
 
----
+In the Folder `src`, there is although a file, named `#Guide_Main.html`. It contains more detailed intructions about the single scripts and projects. To read it, first download it and open it in your browser.
 
----
+### LICENSE
 
-# old
+### Contribute
 
-# Coding Challenges
+### About
 
-- Repository for submits to coding challenges and my Ideas sometimes and other random stuff!
+Trying to make a collection for useful scripts, feel free to ask questions via the Issue Tab
 
-## Index
-- ***number-turn-180-degree.py*** - Slothbytes 2025 week 11
+made with pythen and :heart:
 
-## Python scripts
-- [3ma to obj converter](https://github.com/ShadowDara/3ma-to-obj-converter-python)
+Shadowdara
 
-## More Stats!
+:3
 
-### 2025 Week 12
-![](files\68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d536861646f7764617261267468656d653d6d69646e696768742d707572706c652673686f775f69636f6e733d74727565.svg)
-![](files\68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d536861646f7764617261266c61796f75743d636f6d70616374267468656d653d6d6.svg)
+## Contributers
+1. Shadowdara
