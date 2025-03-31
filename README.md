@@ -4,9 +4,9 @@ This is a collection Repository for (little) useful coding scripts:
 
 ---
 
-- [Content]()
-  - [Python]()
-    - [3ma to obj converter]()
+- [Content](#Content)
+  - Python
+    - [3ma to obj converter](#3ma-to-obj-converter)
 - [Infos]()
   - [LICENSE]()
   - [Contribute]()
