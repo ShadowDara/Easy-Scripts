@@ -1,31 +1,32 @@
 /* File written by Shadowdara */
 body {
-    margin-top: 0;
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-}
-
-header {
-    text-align: center;
-    background-color: rgb(32, 32, 32);
-    color: rgb(255, 255, 255);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .column {
     display: flex;
 }
 
-aside {}
+aside {
+    margin-left: 0;
+    width: 15%;
+    background-color: rgb(216, 216, 216);
+    position: fixed;
+    height: 100vh;
+}
+
+.aside {
+    margin-left: 0;
+    margin-right: 5%;
+    width: 180px;
+}
 
 main {
     margin-top: 3.5%;
-    padding-top: 0;
-    margin-right: 22%;
-    margin-left: 22%;
+    margin-left: 5%;
     background-color: rgb(235, 235, 235);
     padding-right: 5%;
     padding-left: 5%;
@@ -34,30 +35,57 @@ main {
     margin-bottom: 3%;
     font-size: 20px;
     line-height: 1.8;
+    width: 50%;
 }
 
-footer {
-    text-align: center;
-    background-color: rgb(32, 32, 32);
-    color: rgb(255, 255, 255);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    margin-top: 10px;
-    width: 100%;
-    padding: 5px;
+@media (max-width:1280px) {
+    aside {
+        width: 20%;
+    }
+    main {
+        width: 70%;
+    }
 }
 
 @media (max-width:768px) {
+    aside {
+        width: 22%;
+    }
+    .aside {
+        width: 180px;
+        margin-right: 2%;
+    }
     main {
-        margin-right: 10%;
-        margin-left: 10%;
+        width: 80%;
+        margin-left: 0%;
     }
 }
 
 @media (max-width:480px) {
+    aside {
+        width: 100%;
+        position: relative;
+        height: auto;
+        padding: 5%;
+        margin-bottom: 30px;
+        background-color: rgb(216, 216, 216);
+    }
+    .column {
+        display: contents;
+        width: 100%;
+    }
+    .aside {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
     main {
         margin: 0;
-        padding: 1%;
+        margin-bottom: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 3.5%;
+        padding-left: 3.5%;
+        width: 93%;
     }
 }
