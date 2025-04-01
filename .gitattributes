@@ -4,5 +4,3 @@
 *.md linguist-documentation=false
 *.ini linguist-detectable=true
 *.ini linguist-documentation=false
-docs/ linguist-detectable=true
-docs/ linguist-documentation=false
