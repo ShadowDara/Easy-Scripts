@@ -70,7 +70,11 @@ except:
 
 Handler = http.server.SimpleHTTPRequestHandler
 
-with socketserver.TCPServer(("", PORT), Handler) as httpd:
-    print("\nhttps://github.com/ShadowDara/Easy-Scripts\nthe source repository with more information and guides\n")
-    print(f"server runs on http://localhost:{PORT}\n")
-    httpd.serve_forever()
+try:
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        print("\nhttps://github.com/ShadowDara/Easy-Scripts\nthe source repository with more information and guides\n")
+        print(f"server runs on http://localhost:{PORT}\n")
+        httpd.serve_forever()
+except:
+    print("Server could not started!")
+    sys.exit(1)
