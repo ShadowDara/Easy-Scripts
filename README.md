@@ -1,4 +1,4 @@
-# Scipt Tools
+# Guides
 
 this is the Repository for the github website of some of my own written guides.
 
