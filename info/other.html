@@ -24,11 +24,40 @@
             <h2>Create local HTTP Server</h2>
             <p></p>
             <p>exit code 9 = no port</p>
-            # arg1 = server path (if = *, folder use folder path of the root script)
-            # arg2 = port
-            # arg2 and arg3 = 2 to just check if a port (arg2) is busy
+            <p>exit code 8 = no folder path</p>
+            # arg1 = 
+                1 for no printing
+                2 to just check if a port (arg3) is busy
+
+            # arg2 = server path (\\ for executing folder, $$0 to select)
+
+            # arg3 = port
+
             when the server started correctly, no return is coming and the server is running for ever!
         </div>
+
+        <div>
+            <h2>Folder Indexing script</h2>
+            <p>argh 1 =
+                0 for nth
+                1 for no printing
+                2 for instant exit at the end
+                4 überprüfe den ordner direkt
+                8 zeige ordner mit NoAcces
+
+            (3 for both -> binary sytem)</p>
+
+            <p>argh 2 = path,
+                \\ for executing folder,
+                $$0 to select</p>
+        </div>
+
+        <div>
+            <h2>File Change</h2>
+            <h3>edit time to name</h3>
+            <p># arg 1 = path<br># arg 2 = extensions</p>
+        </div>
+        
         <div>
             <h2>Week 12</h2>
             <p>
